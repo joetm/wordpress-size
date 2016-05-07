@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wordpress sizes over time</title>
+</head>
+<body>
+
+<h1>Wordpress sizes over time</h1>
+
+<!--
+<table id="wordpress-data"></table>
+-->
+
+<script src="js/jquery-2.2.3.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+
+var request = $.getJSON('output.json');
+
+request.success = function (data) {
+
+	// console.log(data);
+
+};
+
+});
+</script>
+
+</body>
+</html>

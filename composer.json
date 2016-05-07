@@ -1,0 +1,6 @@
+{
+    "name": "jonas/wpsize",
+    "require": {
+        "fabpot/goutte": "^3.1"
+    }
+}
