@@ -1,6 +1,8 @@
 {
     "name": "jonas/wpsize",
     "require": {
-        "fabpot/goutte": "^3.1"
+        "fabpot/goutte": "^3.1",
+        "avoidwork/filesize.js": "^3.3",
+        "components/jquery": "^3.0"
     }
 }

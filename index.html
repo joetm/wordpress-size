@@ -26,9 +26,9 @@ body{
 
 <div id="chart" style="width:80%;height:450px;"></div>
 
-<script src="js/jquery-2.2.3.min.js"></script>
-
-<script src="js/plotly-latest.min.js"></script>
+<script src="vendor/components/jquery/jquery.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="vendor/avoidwork/filesize.js/lib/filesize.min.js"></script>
 
 <script type="text/javascript">
 $(function () {
@@ -44,6 +44,7 @@ $(function () {
 
 		for (var i = data.length - 1; i > -1; i--) {
 			y.push(data[i].foldersize);
+			// y.push(filesize(data[i].foldersize));
 			x.push(data[i].version);
 		}
 
